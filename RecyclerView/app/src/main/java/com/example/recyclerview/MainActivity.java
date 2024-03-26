@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerView rvStudents = findViewById(R.id.rv_students);
         rvStudents.setHasFixedSize(true);
-        rvStudents.setLayoutManager(new GridLayoutManager(this, 2));
+//        rvStudents.setLayoutManager(new GridLayoutManager(this, 2));
 
 //        rvStudents.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 //        rvStudents.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
